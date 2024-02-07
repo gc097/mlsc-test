@@ -1,0 +1,376 @@
+<!--Home Page-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/images/home/MLSC Logo.png" />
+    <link rel="apple-touch-icon" href="/images/home/MLSC Logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Learn Student Club</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="/images/home/MLSC Logo.png" alt="Logo" class="team-logo">
+            <a href="index.html" class="logo">Microsoft Learn Student Club<span class="animate" style="--i:1;"></span></a>
+        </div>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="index.html" id="index-link" class="active">Home</a>
+            <a href="teams.html" id="teams-link">Team</a>
+            <a href="events.html" id="events-link">Events</a>
+            <a href="blogs.html" id="blogs-link">Blog</a>
+            <a href="projects.html" id="projects-link">Projects</a>
+            <a href="#contact" id="teams-link"></a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home" style="background-image: url(/images/home/home.png);">
+        <div class="home-content">
+            <h1>MLSC X <span>SVEC</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Learn-Train-Serve</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Microsoft Learn Student Club, is a Technical Club which is dedicated to elevating the coding culture 
+                at Sri Vasavi Engineering College, Tadepalligudem by mentoring to refine 
+                their critical thinking and logical reasoning making them unrivalled! We as a Club have 
+                like-minded individualists who encourage students to develop and volunteer in making open source projects, 
+                participate in various technical events and also conduct comprehensive seminars.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#contact" class="btn btn-register">Register</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://whatsapp.com/channel/0029VaJiNv72ER6emJMEl41u"target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.instagram.com/mlsc.svec?igsh=MXNvandqbDJqdjhzOQ=="target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/company/microsoft-learn-student-club-svec/"target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+         
+    </section>
+
+    <style>
+        .services h2 {
+            margin-bottom: 5rem;
+        }
+    
+        .services-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        
+    
+        .services-container .services-box {
+            flex: 1 1 30%;
+            display: flex;
+            background: var(--second-bg-color);
+            border-radius: 2rem;
+            border: .2rem solid var(--bg-color);
+            overflow: hidden;
+        }
+    
+        .services-container .services-box:hover {
+            border-color: var(--main-color);
+            transform: scale(1.02);
+        }
+    
+        .services-box .content {
+            flex: 1;
+            padding: 3rem 2rem 4rem;
+            text-align: left; 
+        }
+    
+        .services-box i {
+            font-size: 7rem;
+            color: var(--main-color);
+        }
+    
+        .services-box h3 {
+            font-size: 2.6rem;
+        }
+    
+        .services-box p {
+            font-size: 1.6rem;
+            margin: 1rem 0 3rem;
+        }
+    
+        .services-box .image-container {
+            flex: 1;
+            overflow: hidden;
+            margin-left: 200px;
+        }
+    
+        .services-box img {
+            width: 400px; 
+            height: 400px; 
+            object-fit: cover;
+        }
+        .content h3 {
+                text-align: left;
+                font-size: 4rem;
+            }
+
+        .content p {
+                font-size: 2.3rem;
+            
+            }
+        .content h2 {
+                text-align: left;
+                font-size: 3.5rem;
+            }
+    
+        @media screen and (max-width: 768px) {
+            .services-box img {
+                width: 100%; /* Set to 100% to resize the image without cutting */
+                height: auto;
+                object-fit: cover;
+            }
+    
+            .services h2 {
+                margin-top: 5rem; 
+            }
+    
+            .services-box .image-container {
+                flex: 1;
+                overflow: hidden;
+                margin-right: 200px;
+            }
+    
+            .services-container .services-box {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: -10px;
+                text-align: center; 
+            }
+    
+            .services-box .content {
+                padding: 2rem; 
+            }
+    
+            .services-box i {
+                font-size: 5rem; 
+            }
+    
+            .content h3 {
+                text-align: center;
+                font-size: 4rem;
+            }
+            .content h2 {
+                text-align: center;
+                font-size: 3.5rem;
+                margin-top: -5px;
+            }
+
+            .content p {
+                font-size: 2.3rem;
+                text-align: center;
+            }
+
+        }
+    </style>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"></h1>
+        </div>
+    </div>
+    
+    <section class="services" id="services">
+        <h2 class="heading">Meet Our <span>Ambassador!</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="content">
+                    <h3>Chandu Neelam</h3>
+                    <h2><span>MLSA</span></h2>
+                    <p>One of our Hard Working, Dedicated towards Work, Inspirational, 
+                        Goal-minded, Observatory, Team Leading skills, and Proficient in 
+                        team management.</p>
+                </div>
+                <div class="image-container">
+                    <img src="/images/home/chandu-c.jpg" alt="chandu Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+    <!-- team section design -->
+    <section class="about" id="team">
+        <div class="about-down">
+        <h2 class="heading">About <span>Us</span></span></h2>
+    
+        <div class="container">
+            <div class="image-container">
+                <div class="image-slider">
+                    <img src="/images/home/team_image_1.jpg" alt="Image 1">
+                    <img src="/images/home/team_image_2.jpg" alt="Image 2">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+            const imageSlider = document.querySelector('.image-slider');
+            const images = imageSlider.querySelectorAll('img');
+            let imageIndex = 0;
+            const totalImages = images.length;
+        
+            function scrollImages() {
+                imageIndex = (imageIndex + 1) % totalImages;
+                const translateValue = imageIndex * 100;
+        
+                imageSlider.style.transition = 'transform 0.5s ease-in-out';
+                imageSlider.style.transform = `translateX(-${translateValue}%)`;
+            }
+        
+            // Auto scroll every 5 seconds
+            setInterval(scrollImages, 5000);
+        </script>
+        
+    
+        <div class="about-content">
+            <h3><span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Microsoft Learn Student Club is paramount in creating one of the most influential events some of 
+                which include the BIT by BIT and Capture the Flag contests. Our peer-to-peer learning strategy
+                 has made our response rate phenomenal and has helped the participants by a substantial improvement
+                  in their vocational skills, problem-solving skills, and advancements in the technical domain by 
+                  providing them hand-curated content from the experts.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="teams.html" class="btn">Teams</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- education section design -->
+<section class="event-down" id="events">
+    <section class="event" id="events">
+        <h2 class="heading">Our <span>Events</span></h2>
+
+        <div class="event-row">
+            <div class="event-column">
+                <h3 class="title">Technical Events</h3>
+
+                <div class="event-box">
+                    <div class="event-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>18th October 2023</div>
+                            <h3>Azure Cloud Workshop</h3>
+                            <p>Our college recently organized an engaging Azure workshop, 
+                                providing students with hands-on experience in cloud computing. 
+                                Participants delved into the diverse functionalities of Azure services, 
+                                gaining valuable insights into cloud technology. </p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+
+            <div class="event-column">
+                <h3 class="title">Non - Technical Events</h3>
+
+                <div class="event-box">
+                    <div class="event-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>16 October 2023</div>
+                            <h3>Inauguration Ceremony</h3>
+                            <p>The inauguration of the Microsoft Learn Student Club marked a 
+                                momentous occasion in our college, 
+                                fostering a dynamic hub for technology enthusiasts,
+                                and learners. Empowered by the resources 
+                                and opportunities by the Microsoft Learn ecosystem.</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 style="margin-top: 60px;"class="heading">Register now to recieve <span>Updates!</span></h2>
+    
+        <form action="#">
+            <div style="margin-top: 0px;"class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Roll Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Contact Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="College Name" required>
+                    <span class="focus"></span>
+                </div>
+                
+    
+                <div class="btn-box btns">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | Designed by Ganesh Vathumilli | All
+                Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

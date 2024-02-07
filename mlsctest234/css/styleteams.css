@@ -1,0 +1,220 @@
+
+/* teams section */
+.profiles,
+.profiles.a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.profiles {
+    text-align: center;
+    margin-top: 44.9775vh; /* Adjust the top margin as needed */
+    flex-direction: column;
+    flex: 1;
+    margin: 7.4963vh 5%;
+  }
+
+  .profiles.a:not(.first-section) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.9985vh; /* Adjust this value as needed */
+  }
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 32.9835vh;
+  flex-direction: row;
+}
+
+
+.profiles.first-section .row .profile:first-child,
+.profiles.first-section .row .profile:nth-child(2) {
+  margin-top: 65vh;
+}
+
+/* Adjusting the margin-top for h1 and h2 in the first section */
+.heading.teams.first {
+    margin-top: 40vh; /* Adjust the top margin as needed */
+}
+
+
+.circle {
+    width: 41.9790vh; 
+    height: 41.9790vh; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 0.2999vh solid #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styles for developer names */
+.profile p.developer-name {
+    margin: 1.4993vh;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.7em; 
+    white-space: nowrap; 
+}
+
+
+.profile p.role {
+    color: #08cefb; 
+    margin-top: 0.7496vh;
+    font-weight: bold;
+    font-size: 2.4em; 
+}
+
+.profile p.linkedin-handle {
+    margin-top: 1.4993vh;
+    font-size: 2em;
+    color: #08cefb;
+    position: relative; 
+    z-index: 1; 
+}
+
+.profile p.linkedin-handle a {
+    text-decoration: none;
+    color: #08cefb;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20vh; 
+    margin-left: 1vw; 
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 12.4438vh;
+}
+
+.centered h1 {
+    color: #08cefb;
+    font-size: 4.2em; 
+}
+
+.centered h2 {
+    color: #08cefb;
+    font-size: 4.0em; 
+    margin-top: 12.7436vh;
+}
+
+.centered.second h2 {
+    color: #08cefb; 
+    font-size: 4.0em; 
+    margin-top: 337.3313vh; 
+}
+
+.profiles a.row {
+    display: flex;
+    justify-content: center;
+    gap: 32.9835vh; 
+    margin-top: 2.9985vh; 
+}
+
+.profiles.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.4963vh; 
+    margin-top: 40.4798vh; 
+}
+
+.heading.teams {
+    color: #08cefb; 
+    position: relative;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.heading.teams.first {
+    color: #08cefb; 
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* Media queries for smaller screens (max-width: 768px) */
+
+@media (max-width: 768px) {
+    /* Common styling for smaller screens */
+    .profiles {
+      text-align: center;
+      margin-top: 104.9475vh; /* Adjust the top margin as needed */
+      flex-direction: column;
+      flex: 1;
+      margin: 7.4963vh 5%;
+    }
+
+      .profiles.a:not(.first-section) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 34.4828vh; /* Adjust this value as needed */
+  }
+  
+    .row {
+      flex-direction: column;
+      gap: 3.7481vh;
+    }
+  
+    .circle {
+      width: 26.9865vh;
+      height: 26.9865vh;
+    }
+  
+    .profile p.developer-name {
+      font-size: 200%;
+    }
+  
+    .profile p.role {
+      font-size: 160%;
+    }
+  
+    /* Adjusting the margin-top for the first section on smaller screens */
+    .profiles.first-section {
+      margin-top: 74.9625vh; /* Adjust the top margin as needed */
+    }
+  
+    /* Adjusting the margin-top for h1 and h2 in the first section on smaller screens */
+    .heading.teams.first {
+      margin-top: 140%; /* Adjust the top margin as needed */
+    }
+  
+    /* Adjusting the margin-top for the first two profiles in the first section on smaller screens */
+    .profiles.first-section .row .profile:first-child,
+    .profiles.first-section .row .profile:nth-child(2) {
+      margin-top: 22.4888vh; /* Adjust the top margin as needed */
+    }
+  }
+  
